@@ -2,3 +2,52 @@
   background-image: url("http://one-paris.com/img/home-location_bg.jpg");
   margin: -20px 0 0 -180px;
 }*/
+
+#rectangle1 {
+    width:619px;
+    height:528px;
+    background: #000000;
+    opacity: .8;
+    margin: 28px 0 0 36px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+#rectangle2 {
+    width:600px;
+    height:564px;
+    background: #ec6333;
+    opacity: .8;
+    margin: 28px 0 0 654px;
+    position: absolute;
+    z-index: 3
+}
+
+#left {
+  background-image: url("http://one-paris.com/img/home-location_bg.jpg");
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#left:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+#right {
+  background-image: url("http://one-paris.com/img/home-building_bg.jpg");
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#right:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
